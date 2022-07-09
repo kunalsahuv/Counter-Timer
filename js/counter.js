@@ -30,6 +30,7 @@ function fillCounter(){
   var interval=setInterval(function() {
       if(getNumber()>=input){
           clearInterval(interval);
+          window.alert("!!Time Over");
           return;
       }
       if(arr[si]!=9){
